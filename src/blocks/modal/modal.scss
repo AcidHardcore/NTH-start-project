@@ -22,8 +22,7 @@ $z-index-modal:               100 !default;
 
 .modal {
 
-  $block-name:                &;
-  // #{$block-name}__element
+  $block-name:                &; // #{$block-name}__element
 
   display: none;
   overflow: hidden;
@@ -81,7 +80,7 @@ $z-index-modal:               100 !default;
   }
 
   &__close {
-    position: absolute !important;
+    position: absolute !important; // stylelint-disable-line  declaration-no-important
     top: 5px;
     right: 5px;
   }
